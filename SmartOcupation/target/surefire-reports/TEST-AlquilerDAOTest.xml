@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="AlquilerDAOTest" time="0.357" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\carpeta medac\Medac 2026\1-Desarrollo de interfaces\Desarrollo de Interfaces Practicos\SmartOcupation\target\test-classes;D:\carpeta medac\Medac 2026\1-Desarrollo de interfaces\Desarrollo de Interfaces Practicos\SmartOcupation\target\classes;C:\Users\manu_\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar;C:\Users\manu_\.m2\repository\com\toedter\jcalendar\1.4\jcalendar-1.4.jar;C:\Users\manu_\.m2\repository\org\apache\pdfbox\pdfbox\2.0.30\pdfbox-2.0.30.jar;C:\Users\manu_\.m2\repository\org\apache\pdfbox\fontbox\2.0.30\fontbox-2.0.30.jar;C:\Users\manu_\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\manu_\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\manu_\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\manu_\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\manu_\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\manu_\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\manu_\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\manu_\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\manu_\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\manu_\.m2\repository\app\lexilabs\basic\basic-logging-jvm\0.2.6\basic-logging-jvm-0.2.6.jar;C:\Users\manu_\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\2.1.21\kotlin-stdlib-2.1.21.jar;C:\Users\manu_\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\manu_\AppData\Local\Temp\surefire2028310704991572152\surefirebooter-20251117101020811_3.jar C:\Users\manu_\AppData\Local\Temp\surefire2028310704991572152 2025-11-17T10-10-20_696-jvmRun1 surefire-20251117101020811_1tmp surefire_0-20251117101020811_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="AlquilerDAOTest"/>
+    <property name="surefire.test.class.path" value="D:\carpeta medac\Medac 2026\1-Desarrollo de interfaces\Desarrollo de Interfaces Practicos\SmartOcupation\target\test-classes;D:\carpeta medac\Medac 2026\1-Desarrollo de interfaces\Desarrollo de Interfaces Practicos\SmartOcupation\target\classes;C:\Users\manu_\.m2\repository\com\mysql\mysql-connector-j\9.4.0\mysql-connector-j-9.4.0.jar;C:\Users\manu_\.m2\repository\com\toedter\jcalendar\1.4\jcalendar-1.4.jar;C:\Users\manu_\.m2\repository\org\apache\pdfbox\pdfbox\2.0.30\pdfbox-2.0.30.jar;C:\Users\manu_\.m2\repository\org\apache\pdfbox\fontbox\2.0.30\fontbox-2.0.30.jar;C:\Users\manu_\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\manu_\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\manu_\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\manu_\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\manu_\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\manu_\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\manu_\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\manu_\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\manu_\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\manu_\.m2\repository\app\lexilabs\basic\basic-logging-jvm\0.2.6\basic-logging-jvm-0.2.6.jar;C:\Users\manu_\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\2.1.21\kotlin-stdlib-2.1.21.jar;C:\Users\manu_\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\manu_"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\carpeta medac\Medac 2026\1-Desarrollo de interfaces\Desarrollo de Interfaces Practicos\SmartOcupation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\manu_\AppData\Local\Temp\surefire2028310704991572152\surefirebooter-20251117101020811_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="24.0.2+12"/>
+    <property name="user.name" value="manu_"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu24.32+13-CA"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\Apache NetBeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\manu_\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\manu_\AppData\Local\Temp\"/>
+    <property name="java.version" value="24.0.2"/>
+    <property name="user.dir" value="D:\carpeta medac\Medac 2026\1-Desarrollo de interfaces\Desarrollo de Interfaces Practicos\SmartOcupation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\AutoFirmaJA\AutoFirmaJA;C:\Program Files (x86)\Deskshare\Auto FTP Manager 5\;C:\Program Files\AutoFirmaJA\AutoFirmaJA;C:\ProgramData\chocolatey\bin;C:\composer;C:\php;C:\Program Files (x86)\AutoFirma\AutoFirma;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\apache\Maven\apache-maven-3.9.10\bin;C:\Users\manu_\AppData\Local\Microsoft\WindowsApps;C:\Users\manu_\.dotnet\tools;C:\Users\manu_\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\manu_\AppData\Roaming\Composer\vendor\bin;C:\Users\manu_\AppData\Local\Programs\Swift\Runtimes\6.0.1\usr\bin\;C:\Users\manu_\AppData\Local\Programs\Swift\Toolchains\6.0.1+Asserts\usr\bin\;C:\Users\manu_\AppData\Local\Programs\Swift\Tools\6.0.1\;C:\\Users\manu_\Archivos de programa\nodejs\;C:\Users\manu_\AppData\Local\gitkraken\bin;C:\Users\manu_\AppData\Roaming\npm;C:\Users\manu_\AppData\Local\GitHubDesktop\bin;C:\Users\manu_\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="24.0.2+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="testBuscarPorRangoFechas_sinResultados" classname="AlquilerDAOTest" time="0.316"/>
+  <testcase name="testBuscarPorRangoFechas_datosValidos" classname="AlquilerDAOTest" time="0.011"/>
+  <testcase name="testBuscarPorRangoFechas_devuelveLista" classname="AlquilerDAOTest" time="0.008"/>
+</testsuite>
